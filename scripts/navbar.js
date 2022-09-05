@@ -17,7 +17,7 @@ app.component('navbar', {
                     homeLink: "./",
                     spotifyLink: "./spotify",
                     uploadLink: "",
-                    creditsLink: "./credits"
+                    // creditsLink: "./credits"
                 }
                 // href links at spotify page
             } else if (window.location.href.includes("spotify")) {
@@ -25,22 +25,22 @@ app.component('navbar', {
                     homeLink: "./",
                     spotifyLink: "",
                     uploadLink: "./login",
-                    creditsLink: "./credits"
+                    // creditsLink: "./credits"
                 }
-            } else if (window.location.href.includes("credits")) {
-                return {
-                    homeLink: "./",
-                    spotifyLink: "./spotify",
-                    uploadLink: "./login",
-                    creditsLink: ""
-                }
+            // } else if (window.location.href.includes("credits")) {
+            //     return {
+            //         homeLink: "./",
+            //         spotifyLink: "./spotify",
+            //         uploadLink: "./login",
+            //         creditsLink: ""
+            //     }
             }
             else {
                 return {
                     homeLink: "",
                     spotifyLink: "./spotify",
                     uploadLink: "./login",
-                    creditsLink: "./credits"
+                    // creditsLink: "./credits"
                 }
             }
         }
@@ -66,9 +66,6 @@ app.component('navbar', {
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" :href=links.uploadLink>Upload</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" :href=links.creditsLink>Credits</a>
                     </li>
                 </ul>
             </div>
