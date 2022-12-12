@@ -19,7 +19,7 @@
     <a href="https://github.com/Vasn/wad-g8"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="http://www.smuaudio.tech/">View Demo</a>
+    <a href="https://vasn.github.io/wad-g8/">View Demo</a>
     ·
     <a href="https://github.com/Vasn/wad-g8/issues">Report Bug</a>
     ·
@@ -57,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](http://www.smuaudio.tech/)
+[![Product Name Screen Shot][product-screenshot]](https://vasn.github.io/wad-g8/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
